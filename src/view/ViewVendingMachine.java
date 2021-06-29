@@ -167,12 +167,12 @@ public class ViewVendingMachine extends JFrame {
 						txtSoDu.setText(control.tinhTien(soDu, sanPham) + "");
 						txtShow.setText("Thông tin sản phẩm");
 					}
-					
+					else {
 					JOptionPane.showMessageDialog(pCenter,
 			               "Số dư không đủ",
 			                "Thông báo mua hàng",
 			                JOptionPane.INFORMATION_MESSAGE);
-					
+					}
 				}
 			}
 		}
